@@ -6,6 +6,7 @@
     url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
+/* Iocn =========== */
 
 .icon-work:before { content: "\eac9"; }
 .icon-project:before { content: "\eaf4"; }
@@ -25,12 +26,13 @@
 .icon-delete:before { content: "\e61b"; }
 .icon-trophy:before { content: "\e80b"; }
 
+/* Layout ============= */
 span {
     display: inline-block;
 }
 
 .label-value{
-    width: 200px;
+    width: 230px;
     vertical-align: top;
 }
 
@@ -54,6 +56,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 500;
     color: #607d8b;
     line-height: 1.5;
+    margin-bottom: 8px;
 }
 
 .progress-list div {
@@ -130,7 +133,8 @@ footer {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.75;
+    margin-bottom: 5px;
 }
 
 progress {
@@ -212,7 +216,7 @@ progress::-moz-progress-value {
 
 .side {
     position: absolute;
-    width: 380px;
+    width: 420px;
     height: 100%;
     background-color: whitesmoke;
     padding-left: 20px;
@@ -221,7 +225,7 @@ progress::-moz-progress-value {
 
 .main {
     position: relative;;
-    margin-left: 380px;
+    margin-left: 420px;
     min-height: 100%;
     padding: 20px;
 
